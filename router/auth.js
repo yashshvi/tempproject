@@ -2,9 +2,7 @@ const express = require("express");
 const bcrypt = require('bcrypt');
 const router = express.Router();
 var jwt = require('jsonwebtoken');
-router.get('/', (req, res) => {
-  res.send("hi i am here from router")
-})
+
 
 const Input = require("../modles/register");
 const Longininput = require("../modles/login");
