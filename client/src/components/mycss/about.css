@@ -1,0 +1,31 @@
+.name{
+    text-align: center;
+    color: #077db3;
+}
+.h2{
+    color: #ab053d;
+}
+.h3{
+font-size: 1.2rem;
+color: #28757e;}
+.aboutcon{
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    width: 100%;
+    height: 100%;
+padding:12px 12px;
+display: flex;
+flex-direction: row;
+}
+.aboutimg{
+    position: absolute;
+    right: 3rem;
+     height: 8rem,;
+     width: 8rem;
+}
+@media (min-width:0px) and (max-width:992px) {
+    .aboutcon{
+       
+    display: flex;
+    flex-direction: column;
+    }
+}

@@ -1,0 +1,15 @@
+*{
+    background-color: aqua;
+}
+@media (min-width:0px) and (max-width:992px) {
+    .pimg{
+        position: none;
+    }
+}
+.pimg{
+    background-color: brown;
+    height: "1.8rem";
+     width: "2rem";
+     position:"absolute";
+     right:'1rem';
+}

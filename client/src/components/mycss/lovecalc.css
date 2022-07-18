@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.mdiv{
+    text-align: center;
+    margin-top: 5rem;
+   
+}
+.h2{
+    color: #ed647c;
+}
+.but{
+    margin: 12px 12px;
+    border-radius: 12px;
+    padding: 4px 4px;
+    background-color: white;
+    color: #ed647c;
+    font-weight: 500;
+    border: none;
+}
+.but:hover{
+border:2px solid #ed647c;
+/* color: #304a83; */
+}
+.h1{
+    color: #72061a;
+}
+.outputdiv{
+    text-align: center;
+    color: #2a72c5;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 5rem;
+}

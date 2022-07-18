@@ -1,0 +1,25 @@
+@media (min-width:0px) and (max-width:992px) {
+    .myoutter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+}
+.submitbutton{
+margin-top: 1rem;
+background-color: #95d0ff;
+    border-radius: 35px;
+    padding: 12px 12px;
+    border: #03a9f4;
+    color: #004b6c;
+    font-weight: 800;
+}
+.submitbutton:hover{
+    background-color:#004b6c ;
+    color: #95d0ff;
+}
+.heading{
+   
+    color: #004b6c;
+    font-weight: 800;
+}

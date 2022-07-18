@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+/* //my third styling */
+.main-hero{
+  display: flex;
+}
+/* .main-hero-images{
+  display: flex;
+} */
+.hero-image1{
+border-radius: 9rem;
+height: 12rem;
+width: 21rem; 
+}
+.hero-image2{
+  height: 17rem;
+}
+.container{
+margin-top: 4rem;}
+/* //css for third component */
+/* header{
+  background-color: var(--bgcolor);
+  min-height: 100vh;
+  width: 100%;
+}
+.main-hero{
+  height: 80vh;
+  display: flex;
+  width: 100%;
+}
+.row{
+  width: 100%;
+}
+.hihere{
+  width: 100%;
+}
+.main-hero-images{
+  position: relative;
+} */
+ 
+/* 
+.main-hero-images img{
+  width: 60%;
+  height: 75%;
+  margin-top: 10%;
+  box-shadow: 0 0.8rem 0.8rem rgba(0, 0, 0, 0.25);
+  border-radius: 1.5rem;
+  position: absolute;
+} 
+
+ .main-hero-images .hero-image2{
+position: absolute;
+width: 50%;
+height: 30%;
+left: 55%;
+top: -2%;
+}   */

@@ -1,0 +1,43 @@
+  // "proxy": "http://localhost:1000",
+
+
+//for starting 
+type:npm start
+
+  "proxy": "http://localhost:1000",
+const Home=()=>{
+    let name="komal";
+const handelIt=()=>{
+    name="ishita";
+}
+
+return (
+<div>Home name</div>
+<p>{name}</p>
+<button onClick={handelIt}>Click me</button>
+
+)
+}
+
+//now according to above code  in onclick  event name should change to ishita but actually it will not happen 
+// for this react hook is used
+
+
+import {useState} from "react";
+const Home=()=>{
+    //name =>default
+    //setName=>function for changes
+    const [name,setName]=useState("mario");
+const handelIt=()=>{
+    setName("ishita");
+}
+
+return (
+<div>Home name</div>
+<p>{name}</p>
+<button onClick={handelIt}>Click me</button>
+
+)
+}
+
+//now name will change
