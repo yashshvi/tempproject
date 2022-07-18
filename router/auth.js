@@ -125,10 +125,32 @@ router.post("/blog",async(req,res)=>{
   // console.log("hini m next ");  
     res.send(req.rootuser);
   })
-  // router.get('/blog',getallblog,(req,res)=>{
-  //   // console.log("hini m next ");  
-  //     res.send(req.rootuser);
-  //   })
+//my changes
+  router.get('/register',authenticate,(req,res)=>{
+    // console.log("hini m next ");  
+      res.send(req.rootuser);
+    })
+  
+    router.get('/login',authenticate,(req,res)=>{
+      // console.log("hini m next ");  
+        res.send(req.rootuser);
+      })
+  
+      router.get('/wallpaper',authenticate,(req,res)=>{
+        // console.log("hini m next ");  
+          res.send(req.rootuser);
+        })
+
+        router.get('/lovecalculator',authenticate,(req,res)=>{
+          // console.log("hini m next ");  
+            res.send(req.rootuser);
+          })
+          
+        
+  router.get('/blog',getallblog,(req,res)=>{
+    // console.log("hini m next ");  
+      res.send(req.rootuser);
+    })
 
  
 module.exports = router;
