@@ -42,18 +42,18 @@ const upload=multer({
   storage:Storage
 }).single('testImage');
 
-app.get('/',(req,res)=>{
-    res.send("hi i am here")
-  })
-  app.get('/register',(req,res)=>{
-    res.send("hi i am register")
-  })
-  app.get('/login',(req,res)=>{
-    res.send("hi i am login")
-  })
-  app.get('/blog',(req,res)=>{
-    res.send("hi i am blog")
-  })
+// app.get('/',(req,res)=>{
+//     res.send("hi i am here")
+//   })
+//   app.get('/register',(req,res)=>{
+//     res.send("hi i am register")
+//   })
+//   app.get('/login',(req,res)=>{
+//     res.send("hi i am login")
+//   })
+//   app.get('/blog',(req,res)=>{
+//     res.send("hi i am blog")
+//   })
 
   // app.post("/blog",(req,res)=>{
   //    upload(req,res,(err)=>{
