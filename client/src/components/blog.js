@@ -75,7 +75,8 @@ export default function Blog() {
                   </div>
                   <div className='form-group'>
 
-                    <input style={inputfield} className='myinput' type="text" name='from' id="from" autoComplete='off'
+                    <input style={inputfield} className='myinput' type="text" name='from' id="from"
+                     autoComplete='off'
                       value={from}
                       onChange={(e) => setFrom(e.target.value)}
                       placeholder='Enter your secret name'></input>
